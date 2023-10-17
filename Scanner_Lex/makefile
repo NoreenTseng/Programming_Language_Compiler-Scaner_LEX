@@ -1,4 +1,4 @@
-FILE_lex=	B051010001.lex
+FILE_lex=	scanner.lex
 PROG_lex=	lex.yy.c
 all:	$(PROG_lex)
 	gcc $(PROG_lex) -lfl
